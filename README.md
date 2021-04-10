@@ -5,4 +5,4 @@ a tunisian platform made to share knowledge.
 
 ## :rocket: What's tha9fni will be like? 
 
-![homepage](homepage_tha9fni.jpg)
+![homepage](homepage_tha9fni.png)
