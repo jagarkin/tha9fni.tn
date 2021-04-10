@@ -23,9 +23,9 @@ Thepodcast page:
 
 | Task           | Time required | Assigned to   | Current Status | Finished | 
 |----------------|---------------|---------------|----------------|-----------|
-| ReactRouterDom | > 5 hours     | @elfalehdev   | in progress |  [ ] ok?
-|                | > 5 hours     |               | in progress | [x] item1<br/>[ ] item2
-|                | > 5 hours     |               | in progress | <ul><li>- [x] item1</li><li>- [ ] item2</li></ul>
+| ReactRouterDom | > 5 hours     | @elfalehdev   | in progress | - [ ] 
+|                | > 5 hours     |               | in progress | - [ ] <br/>[ ] 
+|                | > 5 hours     |               | in progress | <ul><li>- [x] </li><li>- [ ] </li></ul>
 
 - [x] works
 - [x] works too
