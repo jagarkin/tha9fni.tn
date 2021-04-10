@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Link } from 'react-scroll'
+
 
 ReactDOM.render(
   <React.StrictMode>

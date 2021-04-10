@@ -1,25 +1,33 @@
+import React, { useState } from 'react';
+// there's a problem withitn the react-router-dom 
+import { Navbar } from './components/navBar/navbar'
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { Link } from 'react-scroll'
+
 
 function App() {
+  const [withMenu, setWithMenu] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <Router>
+        <div className='body-container' >
+            <Navbar 
+                withMenu={withMenu}
+                setWithMenu={setWithMenu}
+            />
+            <div className='container-all-pages' onClick={() => withMenu === true ? setWithMenu(false) : null} >
+                <div className='wrapper-menu-mobile' onClick={() => setWithMenu(true)}>
+                    <img alt='menu'  src={MenuLogo}/>
+                </div>
+                
+                <div className='title-page' >
+                    <motion.h1 initial={true} animate={{ x: 300}} className='name'>
+                         THIS IS THA9FNI .
+                    </motion.h1>
+                    
+         </div></div></div></Router>
   );
 }
-
 export default App;
