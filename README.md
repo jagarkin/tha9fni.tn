@@ -17,4 +17,11 @@ The blog page:
 Thepodcast page:
 ![podcast](podcast_tha9fni.png)
 
+<br />
+## :warning: TO-DO
+(please mark your name if you're assigned to a task)
 
+- [ ] Fixing the react-router-dom Error
+- [ ] Adding the sub-pages on the navBar
+- [ ] Create the header of the main page
+- [ ] Add the logo and re:attach the navBar
