@@ -1,33 +1,30 @@
-import React, { useState } from 'react';
-// there's a problem withitn the react-router-dom 
-import { Navbar } from './components/navBar/navbar'
-import logo from './logo.svg';
-import './App.css';
-import {BrowserRouter as Router } from 'react-router-dom'
-import { motion } from 'framer-motion'
-import { Link } from 'react-scroll'
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
+import { GlobalStyle } from './components/hooks/useGlobalStyle'
+import NavBar from './components/navbar/NavBar'
+//views
+import Home from './components/views/Home'
+import About from './components/views/About'
+import Prodcast from './components/views/Prodcast'
 
 function App() {
-  const [withMenu, setWithMenu] = useState(false);
   return (
- <Router>
-        <div className='body-container' >
-            <Navbar 
-                withMenu={withMenu}
-                setWithMenu={setWithMenu}
-            />
-            <div className='container-all-pages' onClick={() => withMenu === true ? setWithMenu(false) : null} >
-                <div className='wrapper-menu-mobile' onClick={() => setWithMenu(true)}>
-                    <img alt='menu'  src={MenuLogo}/>
-                </div>
-                
-                <div className='title-page' >
-                    <motion.h1 initial={true} animate={{ x: 300}} className='name'>
-                         THIS IS THA9FNI .
-                    </motion.h1>
-                    
-         </div></div></div></Router>
-  );
+    <>
+      <GlobalStyle />
+      <Router>
+        {/* navbar */}
+        <NavBar />
+
+        {/* switch between pages */}
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/prodcast' component={Prodcast} />
+          <Route path='/about' component={About} />
+        </Switch>
+        {/* */}
+      </Router>
+    </>
+  )
 }
-export default App;
+export default App
