@@ -23,9 +23,7 @@ Thepodcast page:
 
 | Task           | Time required | Assigned to   | Current Status | Finished | 
 |----------------|---------------|---------------|----------------|-----------|
-| ReactRouterDom | > 5 hours     | @elfalehdev   | in progress |   <ul><li>- [x] </li><li>- [ ] </li></ul> 
-|                | > 5 hours     |               | in progress |  <ul><li>- [x] </li><li>- [ ] </li></ul>
-|                | > 5 hours     |               | in progress | <ul><li>- [x] </li><li>- [ ] </li></ul>
+|retach the theme| > 5 hours     | @elfalehdev   | in progress |   <ul><li>- [ ] </li><li>- [ ] </li></ul> 
+|navbar edit     | > 5 hours     | @mediheb-codes| in progress |  <ul><li>- [ ] </li><li>- [ ] </li></ul>
+|                | > 5 hours     |               | in progress | <ul><li>- [ ] </li><li>- [ ] </li></ul>
 
-- [x] works
-- [x] works too
