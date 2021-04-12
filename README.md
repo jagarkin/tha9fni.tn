@@ -24,5 +24,5 @@ Thepodcast page:
 | Task             | Time required | Assigned to    | Current Status | Finished                                |
 | ---------------- | ------------- | -------------- | -------------- | --------------------------------------- |
 | retach the theme | > 5 hours     | @elfalehdev    | in progress    | <ul><li>- [ ] </li><li>- [ ] </li></ul> |
-| navbar edit      | > 5 hours     | @mediheb-codes | in progress    | <ul><li>- [ ] </li><li>- [ ] </li></ul> |
+| navbar edit      | > 5 hours     | @mediheb-codes | in progress    | <ul><li>- [X] </li><li>- [X] </li></ul> |
 |                  | > 5 hours     |                | in progress    | <ul><li>- [ ] </li><li>- [ ] </li></ul> |
