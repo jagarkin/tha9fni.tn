@@ -2,7 +2,7 @@ import React from 'react'
 import { List, Item, Linker } from '../styles/NavBar.element'
 
 const Menu = () => {
-  const paths = ['prodcast', 'about']
+  const paths = ['prodcast', 'blog', 'aboutUs', 'FAQ']
 
   return (
     <>
