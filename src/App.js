@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import { GlobalStyle } from './components/hooks/useGlobalStyle'
-import NavBar from './components/navbar/NavBar'
+import Navbar from './components/navbar'
 //views
 import Home from './components/views/Home'
 import About from './components/views/About'
@@ -14,7 +14,7 @@ function App() {
       <GlobalStyle />
       <Router>
         {/* navbar */}
-        <NavBar />
+        <Navbar />
 
         {/* switch between pages */}
         <Switch>
