@@ -6,8 +6,9 @@ const Home = () => {
       <Section>
         <Title>Tunisian programmers</Title>
         <Parag>
-          by all tunisian to tunisian, tha9afni.tn is a prodcast platform to
-          help you find a good space in the internet
+          tha9afni is a prodcast platform to help you find a good place in the
+          internet. Everyone is welcomed to contribute and build this dream
+          projet
         </Parag>
       </Section>
     </>

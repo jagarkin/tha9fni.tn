@@ -1,7 +1,12 @@
 import React from 'react'
+import { Section, Title } from '../styles/Typographty.element'
 
 const Contact = () => {
-  return <div>contact</div>
+  return (
+    <Section>
+      <Title>Contact</Title>
+    </Section>
+  )
 }
 
 export default Contact
