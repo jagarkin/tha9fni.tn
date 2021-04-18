@@ -5,7 +5,7 @@ const Prodcast = () => {
   return (
     <>
       <Section>
-        <Title>Prodcast</Title>
+        <Title>برودكاست</Title>
       </Section>
     </>
   )

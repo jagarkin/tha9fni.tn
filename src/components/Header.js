@@ -34,18 +34,3 @@ const Container = styled.div`
     flex-direction: row;
   }
 `
-
-// const Link = styled(NavLink)`
-//   padding: 10px;
-//   display: flex;
-//   flex-direction: row;
-//   align-items: center;
-//   border-radius: 12px;
-//   justify-content: center;
-//   color: ${({ theme }) => theme.text};
-
-//   &:hover,
-//   &:focus {
-//     background-color: ${({ theme }) => theme.hover};
-//   }
-// `

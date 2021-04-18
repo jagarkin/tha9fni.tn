@@ -4,12 +4,12 @@ const Home = () => {
   return (
     <>
       <Section>
-        <Title>Tunisian programmers</Title>
+        <Title>المبرمج التونسي</Title>
         <Parag>
-          tha9afni is a prodcast platform to help you find a good place in the
-          internet. Everyone is welcomed to contribute and build this dream
-          projet
+          مرحيا بكم في منصة ثقفني، تهدف هده المنصة إلى توفير مكان للمبرجين
+          التونسيينس
         </Parag>
+        <Parag>هذه المنصة في صدد التطوير، مرحبَا بكم جميعا</Parag>
       </Section>
     </>
   )

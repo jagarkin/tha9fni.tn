@@ -5,7 +5,9 @@ export const GlobalStyle = createGlobalStyle`
   *, *::after, *::before {
     margin: 0px;
     padding: 0px;
+    direction:rtl;
     box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
   }
 
   html,
@@ -35,13 +37,13 @@ export const Wrapper = styled.div`
 `
 
 export const Main = styled.main`
-  width: 850px;
+  width: 1104px;
   min-height: 100vh;
   margin: 0px auto;
   padding: 96px 16px;
   background-color: none;
 
-  @media (max-width: 850px) {
+  @media (max-width: 1104px) {
     width: 100%;
     padding: 32px 16px;
   }

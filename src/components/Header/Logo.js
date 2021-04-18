@@ -4,7 +4,7 @@ import { LogoLink } from '../../styles/Typographty.element'
 const Logo = () => {
   return (
     <>
-      <LogoLink to='/'>Tha9afni</LogoLink>
+      <LogoLink to='/'>ثقفني</LogoLink>
     </>
   )
 }
