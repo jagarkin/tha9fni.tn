@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 export const useDarkMode = () => {
-  const [theme, setTheme] = useState('dark')
+  const [theme, setTheme] = useState('light')
   const [componentMounted, setComponentMounted] = useState(false)
 
   const setMode = (mode) => {
@@ -10,12 +10,12 @@ export const useDarkMode = () => {
   }
 
   const toggleTheme = () => {
-    theme === 'dark' ? setMode('light') : setMode('dark')
+    theme === 'light' ? setMode('dark') : setMode('light')
   }
 
   useEffect(() => {
     const localTheme = localStorage.getItem('mode')
-    localTheme ? setTheme(localTheme) : setMode('dark')
+    localTheme ? setTheme(localTheme) : setMode('light')
     setComponentMounted(true)
   }, []) // eslint-disabel-line
 

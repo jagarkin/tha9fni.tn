@@ -17,7 +17,7 @@ function App() {
     return <div />
   } else {
     return (
-      <ThemeProvider theme={theme === 'dark' ? darkTheme : lightTheme}>
+      <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <GlobalStyle />
         <Wrapper>
           <Router>
