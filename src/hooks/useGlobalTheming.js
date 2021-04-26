@@ -37,13 +37,13 @@ export const Wrapper = styled.div`
 `
 
 export const Main = styled.main`
-  width: 1104px;
+  width: 1304px;
   min-height: 100vh;
   margin: 0px auto;
   padding: 96px 16px;
   background-color: none;
 
-  @media (max-width: 1104px) {
+  @media (max-width: 1304px) {
     width: 100%;
     padding: 32px 16px;
   }

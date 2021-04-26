@@ -1,0 +1,5 @@
+export { default as Home } from './pages/_Home'
+export { default as Podcast } from './pages/_Podcast'
+export { default as Contact } from './pages/_Contact'
+export { default as Blog } from './pages/_Blog'
+export { default as Faq } from './pages/_Faq'

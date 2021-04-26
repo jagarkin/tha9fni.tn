@@ -3,8 +3,10 @@ import { Wrapper, MenuLink } from '../../styles/Menu.element'
 
 const ListMenu = () => {
   const paths = [
-    { location: '/prodcast', name: 'برودكاستات' },
+    { location: '/prodcast', name: 'بودكاستات' },
+    { location: '/blog', name: 'مقالات' },
     { location: '/contact', name: 'إتصل' },
+    { location: '/faq', name: 'تعليمات' },
   ]
 
   return (

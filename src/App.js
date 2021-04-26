@@ -6,9 +6,7 @@ import { GlobalStyle, Wrapper, Main } from './hooks/useGlobalTheming'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Header from './components/Header'
-import Home from './views/Home'
-import Contact from './views/Contact'
-import Prodcast from './views/Prodcast'
+import { Home, Contact, Podcast, Blog, Faq } from './views/exports'
 
 function App() {
   const [theme, toggleTheme, componentMounted] = useDarkMode()
@@ -24,8 +22,10 @@ function App() {
             <Main>
               <Header mode={theme} modeFunc={toggleTheme} />
               <Switch>
+                <Route path='/faq' component={Faq} />
                 <Route path='/contact' component={Contact} />
-                <Route path='/prodcast' component={Prodcast} />
+                <Route path='/blog' component={Blog} />
+                <Route path='/prodcast' component={Podcast} />
                 <Route exact path='/' component={Home} />
               </Switch>
             </Main>

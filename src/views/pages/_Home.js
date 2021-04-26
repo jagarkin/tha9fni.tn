@@ -1,13 +1,13 @@
 import React from 'react'
-import { Section, Title, Parag } from '../styles/Typographty.element'
-const Home = () => {
+import { Section, Title, Parag } from '../../styles/Typographty.element'
+const _Home = () => {
   return (
     <>
       <Section>
         <Title>المبرمج التونسي</Title>
         <Parag>
           مرحيا بكم في منصة ثقفني، تهدف هده المنصة إلى توفير مكان للمبرجين
-          التونسيينس
+          التونسيين
         </Parag>
         <Parag>هذه المنصة في صدد التطوير، مرحبَا بكم جميعا</Parag>
       </Section>
@@ -15,4 +15,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default _Home
